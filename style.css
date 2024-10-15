@@ -1,0 +1,42 @@
+/* Mengatur gambar agar tidak lebih besar dari lebar layar */
+.anniversary-img {
+    max-width: 100%;    /* Gambar tidak akan melebihi 100% dari lebar elemen induknya */
+    height: auto;       /* Tinggi gambar proporsional dengan lebar */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Menyembunyikan gambar awalnya */
+.hidden-img {
+    display: none;
+}
+
+/* Styling umum untuk teks */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff4081;
+}
+
+p {
+    font-size: 20px;
+    color: #333;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5397f;
+}
